@@ -119,8 +119,8 @@ function sis_gmaps_settings_page() {
                         <label><?php _e('Show zoom control bar?') ?></label>
                     </th>
                     <td>
-                        <input type="radio" name="sis_gmaps_settings[collapsible]" value="true" <?php checked( $options['collapsible'], 'true' ); ?> />Yes
-                        <input type="radio" name="sis_gmaps_settings[collapsible]" value="false" <?php checked( $options['collapsible'], 'false' ); ?> />No
+                        <input type="radio" name="sis_gmaps_settings[zoomcontrol]" value="true" <?php checked( $options['zoomcontrol'], 'true' ); ?> />Yes
+                        <input type="radio" name="sis_gmaps_settings[zoomcontrol]" value="false" <?php checked( $options['zoomcontrol'], 'false' ); ?> />No
                         <p class="description"><?php _e('If you want user can control zoom, check Yes or No if you do not want user can control zoom.') ?></p>
                     </td>
                 </tr>
