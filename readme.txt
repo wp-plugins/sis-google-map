@@ -1,6 +1,6 @@
 === SIS Google Map ===
 Contributors: sayful
-Tags: google map, google map api,
+Tags: google, google map, google map api,
 Requires at least: 2.9
 Tested up to: 3.9.1
 Stable tag: 1.0
@@ -47,7 +47,7 @@ Install by FTP
 
 
 == Frequently Asked Questions ==
-Do you have questions or issues with SIS Google Map? [Ask for support here.](http://sayful1.wordpress.com/100-2/)
+Do you have questions or issues with SIS Google Map? [Ask for support here.](http://wordpress.org/support/plugin/sis-google-map)
 
 == Screenshots ==
 

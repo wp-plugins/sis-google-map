@@ -272,10 +272,10 @@ function sis_gmaps_custom_style(){
 }
 add_action('wp_head', 'sis_gmaps_custom_style');
 
-function sis_gmaps_shortcode( $atts, $content = null ) {
-        extract(shortcode_atts(array(
-                        'type' =>'',
-                ), $atts));    
+// Add shortcode in text widgets
+add_filter('widget_text', 'do_shortcode');
+
+function sis_gmaps_shortcode( $atts, $content = null ) { 
         return '<div id="map-canvas"></div>';
 }
 add_shortcode( 'google-map', 'sis_gmaps_shortcode' );
