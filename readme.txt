@@ -11,7 +11,7 @@ Display custom Google Map. Customize google map without any programming skills.
 
 == Description ==
 
-[Note: This version 2.0.0 is different from the previous version 1.0. And previous shortcode will get the default value of current version. So after upgrading the plugin update your code. It will just take a minute.]
+<p style="color: #a94442">[Note: This version 2.0.0 is different from the previous version 1.0. And previous shortcode will get the default value of current version. So after upgrading the plugin update your code. It will just take a minute.]</p>
 
 <h1>Features</h1>
 <ul>
