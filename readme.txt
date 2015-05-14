@@ -1,25 +1,66 @@
 === SIS Google Map ===
 Contributors: sayful
 Tags: google, google map, google map api,
-Requires at least: 2.9
-Tested up to: 3.9.1
-Stable tag: 1.0
+Requires at least: 3.0
+Tested up to: 4.2
+Stable tag: 2.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Display custom Google Map. Set markers and locations with text, images, categories and links. Customize google map without any programming skills.
+Display custom Google Map. Customize google map without any programming skills.
 
 == Description ==
 
-Display custom Google Map. Set markers and locations with text, images, categories and links. Customize google map without any programming skills.
+[Note: This version 2.0.0 is different from the previous version 1.0. And previous shortcode will get the default value of current version. So after upgrading the plugin update your code. It will just take a minute.]
 
-Just paste the following shortcode where you want to display this map:
+<h1>Features</h1>
+<ul>
+	<li>Unlimited Maps at same page or site.</li>
+	<li>Five predefined styles.</li>
+	<li>TinyMCE button for better user experience.</li>
+	<li>Easy to change Width, Height and Zoom Level</li>
+</ul>
 
-`[google-map]`
+= Usages =
 
-Or you can paste following to add map to your theme:
+After installing and activating the plugin, You will get a TinyMCE button at WordPress editor.
+Go to WordPress editor on page or post and put your cursor where you want to insert map and then just click on map icon, a pop-up window will be opened. 
+Fill all fields (Latitude, Longitude, Width, Height, Zoom Level and Map Style) and click on "OK"
 
-`<?php echo do_shortcode('[google-map]'); ?>`
+= Latitude & Longitude =
+
+You need Latitude and Longitude coordinate for map. You may find longitude and latitude from <a target="_blank" href="http://universimmedia.pagesperso-orange.fr/geo/loc.htm">http://universimmedia.pagesperso-orange.fr/geo/loc.htm</a>.
+Default Latitude is 37.42200 and Default Longitude is -122.08395 that is Googleplex.
+
+= Width =
+
+Give the map width at pixel or percentage. Default value is 100%
+
+= Height =
+
+Give the map height at pixel. Default value is 350px
+
+= Zoom Level =
+
+Give the map zoom level between 0-21. Highest value zooms in and lowest zooms out. Default value is 15
+
+= Map Style =
+
+Choose predefined map styles from the list. Available options are None, Greyscale, Subtle Grayscale, Bright Bubbly, Mixed and Pale Dawn. Default value is "None"
+
+
+
+Without using TinyMCE button you can also write your shortcode manually. Just paste the following shortcode where you want to display google map and change the attributes value as your need.
+
+`[sis_google_map lat="" long="" width="" height="" style="" zoom=""]`
+
+[Note: here style value will be --- none, mixed, pale_dawn, greyscale, bright_bubbly, subtle_grayscale]
+
+Example with default value:
+
+`[sis_google_map lat="37.42200" long="-122.08395" width="100%" height="350px" style="none" zoom="15"]`
+
+
 
 
 == Installation ==
@@ -59,10 +100,8 @@ Do you have questions or issues with SIS Google Map? [Ask for support here.](htt
 = version 1.0 =
 * Implementation of basic functionality.
 
-== CREDIT ==
 
-1.This plugin was developed by [Sayful Islam](http://sayful.net)
+== Upgrade Notice ==
 
-== CONTACT ==
-
-[Sayful Islam](http://sayful1.wordpress.com/100-2/)
+= 2.0.0 =
+This version 2.0.0 is different from the previous version 1.0. And previous shortcode will get the default value of current version. So after upgrading the plugin update your code. It will just take a minute.
