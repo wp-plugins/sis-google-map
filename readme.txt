@@ -92,10 +92,16 @@ Do you have questions or issues with SIS Google Map? [Ask for support here.](htt
 
 == Screenshots ==
 
-1. Screenshot of SIS Google Map Back-end.
+1. Screenshot of SIS Google Map Back-end TinyMCE button.
 2. Screenshot of SIS Google Map Front-end.
 
 == Changelog ==
+
+= version 2.0.0 =
+* Removed previous version 1.0
+* Unlimited Maps at same page or site.
+* Five predefined styles.
+* TinyMCE button for better user experience.
 
 = version 1.0 =
 * Implementation of basic functionality.
